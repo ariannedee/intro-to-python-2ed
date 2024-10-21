@@ -101,3 +101,15 @@ See Lesson 1.3 for instructions on how to run files in the different code editor
 If you are having errors running the file,
 follow these steps to configure your code editor with the
 correct version of Python.
+
+## Troubleshooting
+
+### I downloaded PyCharm Professional and it's saying I'm on a 30-day trial
+
+Go back to https://www.jetbrains.com/pycharm/download/ and scroll down until
+you see the Community Edition, which is always free.
+
+### I'm still having trouble setting everything up
+
+Email me at **arianne.dee.studios** at gmail.com with any relevant 
+error messages and screenshots.
