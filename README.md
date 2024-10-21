@@ -12,7 +12,7 @@ To get started with this course, please follow these instructions:
 ### 1. Download the course files
 
 At the top of this page (at https://github.com/ariannedee/intro-to-python-2ed),
-click the green "< > Code" button.
+click the green <img src="docs/imgs/CodeButton.png" style="width: 50px;"> button.
 
 If you have git installed, clone the repository.
 
@@ -20,7 +20,7 @@ If you don't know git, click "Download ZIP",
 unzip the folder `intro-to-python-2ed-main`
 and move it to a convenient location on your computer.
 
-### 2. Install Python3
+### 2. Install Python 3
 
 Follow along with Lesson 1.1
 
@@ -99,7 +99,7 @@ Follow along with Lesson 1.3
 See Lesson 1.3 for instructions on how to run files in the different code editors.
 
 If you are having errors running the file,
-follow these steps to configure your code editor with the
+follow [these steps](docs/PYTHON-IDE.md) to configure your code editor with the
 correct version of Python.
 
 ## Troubleshooting
