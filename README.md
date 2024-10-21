@@ -12,7 +12,9 @@ To get started with this course, please follow these instructions:
 ### 1. Download the course files
 
 At the top of this page (at https://github.com/ariannedee/intro-to-python-2ed),
-click the green <img src="docs/imgs/CodeButton.png" style="width: 50px;"> button.
+click the green 
+<img src="docs/imgs/CodeButton.png" style="width: 90px;">
+button.
 
 If you have git installed, clone the repository.
 
