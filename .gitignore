@@ -1,0 +1,8 @@
+# IDE settings
+.idea
+
+# Virtual environments
+venv*/
+
+# Compiled files
+*.py[cod]
