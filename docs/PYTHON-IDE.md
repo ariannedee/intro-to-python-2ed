@@ -33,6 +33,8 @@ If you’re not sure where to find it, look in [these locations](PYTHON-LOCATION
 
 ## Visual Studio Code
 
+First, make sure you have a Python file open.
+
 ### 1. Open the Python Interpreter menu
 
    <img width="70%" src="img/vscode_python_1.png">
