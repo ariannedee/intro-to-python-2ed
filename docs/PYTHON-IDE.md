@@ -4,24 +4,24 @@
  
 ### 1. Open the Python Interpreter menu
 
-   <img width="60%" src="img/pycharm_python_1.png">
+   <img width="70%" src="img/pycharm_python_1.png">
    
 ### 2a. Select an existing interpreter
 
-   <img width="60%" src="img/pycharm_python_2a.png">
+   <img width="30%" src="img/pycharm_python_2a.png">
    
    If your desired version is listed, select it. If not, go on to 2b.
 
 ### 2b. Add a new interpreter
 
-   <img width="60%" src="img/pycharm_python_2b.png">
+   <img width="50%" src="img/pycharm_python_2b.png">
 
 ### 3. Add a system interpreter
-   <img width="60%" src="img/pycharm_python_3.png">
+   <img width="30%" src="img/pycharm_python_3.png">
    
 ### 4a. Select an existing system interpreter
 
-   <img width="60%" src="img/pycharm_python_4a.png">
+   <img width="70%" src="img/pycharm_python_4a.png">
    
    If your desired version was found, select it and OK. If not, go on to 4b.
 
