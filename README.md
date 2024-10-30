@@ -15,7 +15,7 @@ To get started with this course, please follow these instructions:
 
 At the top of this page (at https://github.com/ariannedee/intro-to-python-2ed),
 click the green 
-<img src="docs/imgs/CodeButton.png" style="width: 90px;">
+<img src="docs/img/CodeButton.png" style="width: 90px;">
 button.
 
 If you have git installed, clone the repository.
@@ -100,7 +100,7 @@ Otherwise, you can use the installer from https://www.spyder-ide.org/ on Mac or 
 
 1. Run it. It should run successfully with no errors.
 
-See Lesson 1.3 for instructions on how to run files in the different code editors.
+See Lesson 1.2 for instructions on how to run files in the different code editors.
 
 If you are having errors running the file,
 follow [these steps](docs/PYTHON-IDE.md) to configure your code editor with the
