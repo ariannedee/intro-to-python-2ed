@@ -33,3 +33,18 @@ If you’re not sure where to find it, look in [these locations](PYTHON-LOCATION
 
 ## Visual Studio Code
 
+### 1. Open the Python Interpreter menu
+
+   <img width="70%" src="img/vscode_python_1.png">
+   
+### 2a. Select an existing interpreter from the dropdown
+
+   <img width="60%" src="img/vscode_python_2a.png">
+
+If your desired version is listed, select it. If not, go on to 2b.
+
+### 2b. Enter the path to your system interpreter
+
+    <img width="60%" src="img/vscode_python_2b.png">
+
+If you’re not sure where to find it, look in [these locations](PYTHON-LOCATIONS.md).
