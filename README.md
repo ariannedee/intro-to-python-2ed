@@ -11,6 +11,8 @@ To get started with this course, please follow these instructions:
 
 ### 1. Download the course files
 
+**Note:** There are video instructions in Lesson 1.1
+
 At the top of this page (at https://github.com/ariannedee/intro-to-python-2ed),
 click the green 
 <img src="docs/imgs/CodeButton.png" style="width: 90px;">
@@ -24,9 +26,9 @@ and move it to a convenient location on your computer.
 
 ### 2. Install Python 3
 
-Follow along with Lesson 1.1
+**Note:** There are video instructions in Lesson 1.1
 
-You can reference this [Real Python tutorial](https://realpython.com/installing-python/#windows-how-to-install-python-using-the-official-installer)
+You can reference this [Real Python tutorial](https://realpython.com/installing-python)
 for more instructions on how to install Python on your operating system.
 
 Email me at **arianne.dee.studios** at gmail.com if you need help troubleshooting 
@@ -57,7 +59,7 @@ Some options:
 
 ### 3. Install a code editor
 
-Follow along with Lesson 1.2
+**Note:** There are video instructions in Lesson 1.2
 
 The video uses PyCharm Community. 
 You are free to download and use an alternate IDE, like VS Code, Spyder, etc.
@@ -88,7 +90,7 @@ Otherwise, you can use the installer from https://www.spyder-ide.org/ on Mac or 
 
 ### 4. Make sure you can run the code
 
-Follow along with Lesson 1.3
+**Note:** There are video instructions in Lesson 1.2
 
 1. Open your code editor of choice
 
