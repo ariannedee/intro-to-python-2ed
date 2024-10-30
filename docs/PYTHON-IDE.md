@@ -47,6 +47,6 @@ If your desired version is listed, select it. If not, go on to 2b.
 
 ### 2b. Enter the path to your system interpreter
 
-    <img width="60%" src="img/vscode_python_2b.png">
+   <img width="60%" src="img/vscode_python_2b.png">
 
 If you’re not sure where to find it, look in [these locations](PYTHON-LOCATIONS.md).
