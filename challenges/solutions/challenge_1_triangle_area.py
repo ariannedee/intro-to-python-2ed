@@ -7,7 +7,7 @@ a = 3
 b = 4
 c = 5
 
-s = (a + b + c) / 2
+s = (a + b + c) / 2  # superperimeter
 area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 
-print(area)
+print(round(area, 2))

@@ -1,22 +1,24 @@
-import time
-import random
-
-
-def time_target(num_seconds):
-    input(f"{num_seconds}s test. Hit enter to start and stop. ")
-    start = time.time()
-    input("Hit enter to stop ")
-    stop = time.time()
-
-    duration = stop - start
-    results = f"""
-{round(duration, 3)}s
-You were {round(duration - num_seconds, 3)}s off
 """
-    print(results)
+Time target game
+"""
+import time
+from random import randint
 
-target_seconds = random.randint(2, 5)
 
-time_target(target_seconds)
-time_target(target_seconds)
-time_target(target_seconds)
+def time_game(target_seconds):
+    input(f"{target_seconds}s test. Hit ENTER to start ")
+    start = time.time()
+
+    input("Hit ENTER to stop ")
+    end = time.time()
+
+    duration = end - start
+    difference = abs(target_seconds - duration)
+
+    print(f"{duration:.3}s")
+    print(f"You were {difference:.3}s off")
+
+seconds = randint(2, 5)
+time_game(seconds)
+time_game(seconds)
+time_game(seconds)

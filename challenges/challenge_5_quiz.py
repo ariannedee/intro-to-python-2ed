@@ -1,31 +1,27 @@
-v_countries = [
+"""
+Quiz game
+
+User will try to get all the answers (e.g. countries that start with V)
+If they give up and quit, print the ones that were missed
+"""
+
+answers = [
     'Vanuatu',
     'Vatican City',
     'Venezuela',
     'Vietnam',
 ]
 
+category = 'Country that starts with V'
+
 guessed = []
 
-while True:
-    num_left = len(v_countries) - len(guessed)
-    if num_left == 0:
-        print('Great job!')
-        break
+# 4 left
+guess = input(f"Enter a {category.lower()} (q to quit): ")
 
-    print(f"{num_left} left")
-    guess = input("Enter a country that starts with V (q to quit): ")
+# Correct!
+# Already guessed
+# Try again
 
-    if guess.lower() == 'q':
-        missed = list(v_countries)
-        for got in guessed:
-            missed.remove(got)
-        print(f"\n  You missed: {', '.join(v_countries)}")
-        break
-    elif guess in guessed:
-        print('  Already guessed')
-    elif guess in v_countries:
-        print('  Correct!')
-        v_countries.remove(guess)
-    else:
-        print('  Try again')
+# Great job!
+# You missed: a, b, c, d
