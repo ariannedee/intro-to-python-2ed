@@ -5,7 +5,6 @@ Given a radius:
 """
 from math import pi
 
-
 def circumference(r):
     return 2 * pi * r
 

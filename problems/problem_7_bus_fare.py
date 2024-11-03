@@ -2,24 +2,13 @@
 Determine how much to pay for the bus
 
 Children 12 and under are free
-People 13-17 and 65+ are discounted
-
-All fares are halved during non-peak hours
+People age 13-17, 65+, and students pay half price
 """
-PEAK_HOURS = False
+age = int(input("Enter your age: "))
+student = input("Are you a student? (y or n): ")
 
-discount_fare = 2.00
 full_fare = 3.50
 
-def bus_fare(age):
-    return 0
+your_fare = None
 
-
-total = (bus_fare(12) +
-         bus_fare(17) +
-         bus_fare(37) +
-         bus_fare(65))
-
-# Should be $7.50 during peak hours
-# and $3.75 during non-peak hours
-print(f"You need ${total:.2f}")
+print(f"Your fare is ${your_fare}")

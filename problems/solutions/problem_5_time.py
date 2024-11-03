@@ -1,11 +1,11 @@
 """
 Print the elapsed time
 """
-from time import time
+import time
 
-start = time()
 input("Press enter to START the timer: ")
+start = time.time()
 input("Press enter to STOP the timer: ")
-stop = time()
+end = time.time()
 
-print(f"{round(stop - start, 2)}s elapsed")
+print(f"{end - start}s elapsed")
