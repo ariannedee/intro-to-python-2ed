@@ -1,32 +1,38 @@
 # Indexing and slicing
-new_list = [0, 1, 2, 3]
+letters = ['A', 'B', 'C', 'D']
 
-print(new_list[1])
-print(new_list[1:3])
-print(new_list[:2])
-print(new_list[2:])
+print(letters[0])     # 'A'
+print(letters[-1])    # 'D'
+print(letters[1:3])   # ['B', 'C']
+print(letters[:2])    # ['A', 'B']
+print(letters[2:])    # ['C', 'D']
+print(letters[::-1])  # ['D', 'C', 'B', 'A']
 print()
 
+# ------------------------------
 
 # Adding, removing, and updating
-movies = ['Blindspoting', 'Black Panther', 'Annihilation']
+languages = ['English', 'French', 'Tagalog', 'Mandarin']
 
-movies[0] = 'Blindspotting'
-movies.append('Sorry to Bother You')                # Adds item to end of list
-movies.insert(1, 'Won\'t You Be My Neighbour')      # Adds item to list at index
-movies.remove('Annihilation')
-print(movies)
+languages[1] = 'Français'
+languages.append('Icelandic')    # Adds item to end of list
+languages.insert(1, 'Urdu')      # Adds item to list at index
+languages.remove('English')      # Remove first instance of item, raise error if not found
+print(languages)
 
+# ------------------------------
 
 # More list methods
-new_list.insert(1, True)  # Lists can hold any type of data
-new_list.extend([1, 2, 3])
-print(new_list)
-new_list.reverse()
-print(new_list)
-print(new_list.count(1))  # Remember, 1 == True
-new_list.sort()
-print(new_list)
+letters.insert(1, True)    # Lists can hold any type of data
+letters.extend([1, 2, 3])  # Add contents of another sequence to the end
+print(letters)
+print(letters.count(1))  # Remember, 1 == True
+
+letters.reverse()  # Some methods return None, but alter the list
+print(letters)
+
+letters.sort()
+print(letters)
 
 
 # Nested lists can be used for matrices

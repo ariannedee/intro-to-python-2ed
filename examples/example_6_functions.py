@@ -1,12 +1,9 @@
 def add(a, b):
-    return a + b
+    a = float(a)
+    b = float(b)
+    return round(a + b, 8)
 
 
-def say_hello(name, shout=False):
-    if shout:
-        name = name.upper()
-    return 'Hello ' + name
-
-
-print(say_hello('pete'))
-print(say_hello('pete', True))
+print(add(1, 2))
+print(add(1.1, 2.2))
+print(add('1', '2'))
