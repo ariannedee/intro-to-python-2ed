@@ -21,13 +21,13 @@ button {
 }
 
 button:active {
-    background-color: #6e6e6e; /* Even darker shade */
+    background-color: #7e7e7e; /* Even darker shade */
 }
 
 .btns button {
-  background-color: #1ba1ca; /* Primary button color */
+  background-color: #0886ac; /* Primary button color */
 }
 
 .btns button:active {
-    background-color: #0e81a5; /* Even darker shade */
+    background-color: #067091; /* Even darker shade */
 }
