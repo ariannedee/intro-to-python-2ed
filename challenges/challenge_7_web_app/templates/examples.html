@@ -1,0 +1,15 @@
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<!-- JavaScript file -->
+<script src="{{ url_for('static', filename='index.js')}}"></script>
+
+<!-- HTML form with text field -->
+<form action="/" method="post">
+    <label for="input-name">Label:</label>
+    <input type="text" id="input-name" name="input-name" required>
+    <button type="submit">Submit</button>
+</form>
