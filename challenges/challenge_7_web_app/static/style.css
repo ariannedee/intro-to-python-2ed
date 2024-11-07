@@ -1,4 +1,33 @@
 body {
   margin: 100px 200px;
-  font-family: 'Open Sans', 'Arial';
+  font-size: 1.3em;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  font-size: 0.8em;
+  margin: 0 10px;
+}
+
+button {
+  background-color: #919191; /* Primary button color */
+  font-size: 0.8em;
+  margin-right: 10px;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:active {
+    background-color: #6e6e6e; /* Even darker shade */
+}
+
+.btns button {
+  background-color: #1ba1ca; /* Primary button color */
+}
+
+.btns button:active {
+    background-color: #0e81a5; /* Even darker shade */
 }
