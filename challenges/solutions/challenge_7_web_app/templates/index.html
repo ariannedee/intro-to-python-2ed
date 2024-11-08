@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Flask site</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <h1>Hello {{ name or "world" }}</h1>
+
+    {% if name %}
+      <a href="/reset">Change name</a>
+    {% else %}
+      <form action="/" method="post">
+        <label for="name">What's your name?</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+      </form>
+    {% endif %}
+    <h2>Click a button</h2>
+    <div class="btns">
+      {% for btn_id in buttons %}
+        <button id="{{ btn_id }}">I've been clicked {{ buttons[btn_id] }} times</button>
+      {% endfor %}
+    </div>
+
+  <script src="{{ url_for('static', filename='index.js')}}"></script>
+  </body>
+</html>
