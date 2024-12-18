@@ -5,7 +5,7 @@ print('hello world')
 
 print("hello world")
 
-print('hello \n world')
+print(f'hello \n world')
 
 print(2 + 2)
 
