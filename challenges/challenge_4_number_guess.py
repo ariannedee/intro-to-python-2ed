@@ -1,7 +1,7 @@
 """
 Number guessing game
 
-You have 4 tries to guess a number between 1 and 20.
+You have 3 tries to guess a number between 1 and 20.
 """
 import random
 
