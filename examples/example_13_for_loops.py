@@ -15,13 +15,19 @@ print()
 
 primes = [2, 3, 5, 7, 11, 13]
 # Can loop over lists
-for number in primes:
-    print(number)
+for prime in primes:
+    print(prime)
+
+# Create a new list from an existing one
+prime_squares = []
+for prime in primes:
+    prime_squares.append(prime ** 2)
+print(prime_squares)
 
 
 # If you need to know the index, use enumerate()
-for i, number in enumerate(primes):
-    print(f'{i}: {number}')
+for i, prime in enumerate(primes):
+    print(f"{i}: {prime} squared is {prime ** 2}")
 
 
 # sorted() and reversed() can be used when looping over sequences
