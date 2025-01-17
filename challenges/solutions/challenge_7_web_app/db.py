@@ -29,7 +29,7 @@ def get_num_clicks(button_id, update=False):
 def create_and_init_table():
     connection = get_connection()
     cursor = connection.cursor()
-    cursor.execute("DROP TABLE IF EXISTS clicks;")
+    cursor.execute("DROP TABLE IF EXISTS clicks")
     cursor.execute("CREATE TABLE clicks(button_id STRING, num INTEGER)")
     connection.commit()
 
