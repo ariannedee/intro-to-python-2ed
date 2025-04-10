@@ -22,9 +22,9 @@ letters = ['A', 'B', 'C', 'D']
 letters[0] = 'a'                 # Update an item by index
 del letters[1]                   # Delete an item by index
 letters.append('E')              # Add an item to end of list
-letters.insert(1, 'B')           # Adds item to an index
-letters.extend(['A', 'B', 'C'])  # Adds each item from a sequence to the end of the list
-letters.remove('B')              # Remove first instance of item, raise error if not found
+letters.insert(1, 'B')           # Add an item to an index
+letters.extend(['A', 'B', 'C'])  # Add each item from a sequence to the end of the list
+letters.remove('B')              # Remove first instance of item, raise ValueError if not found
 print(letters)
 
 # More list methods
