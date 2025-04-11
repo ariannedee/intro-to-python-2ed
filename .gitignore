@@ -1,3 +1,6 @@
+# Challenge 7 db files
+*.db
+
 # IDE settings
 .idea
 
@@ -5,4 +8,8 @@
 venv*/
 
 # Compiled files
+__pycache__
 *.py[cod]
+
+# Jupyter notebook save data
+.ipynb_checkpoints/
