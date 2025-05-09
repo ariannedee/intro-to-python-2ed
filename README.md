@@ -26,6 +26,9 @@ and move it to a convenient location on your computer.
 
 ### 2. Install Python 3
 
+This course requires Python 3.6 or higher to run all the examples.
+The video uses Python 3.13.
+
 **Note:** There are video instructions in Lesson 1.1
 
 You can reference this [Real Python tutorial](https://realpython.com/installing-python)
@@ -61,19 +64,17 @@ Some options:
 
 **Note:** There are video instructions in Lesson 1.2
 
-The video uses PyCharm Community. 
-You are free to download and use an alternate IDE, like VS Code, Spyder, etc.
-You can also use IDLE, the code editor that comes with Python.
+The video uses PyCharm Community, which is an old edition of PyCharm.
+
+You can now download PyCharm Unified, which provides a free trial of the Pro features 
+and is free to use afterwards. The course doesn't rely on any paid Pro features.
+
+You are welcome to use another IDE, like VS Code, Spyder, IDLE, etc.
 
 #### PyCharm
 Go to https://www.jetbrains.com/pycharm/download/.
 
-**Note**: you will have to scroll down past the Professional edition to get to the free Community Edition download link.
-
-You can also use the Professional Edition if you will be using Python for work. 
-It has better support for working with Jupyter notebooks, creating web apps,
-working with databases and containers, and more.
-There is a 30-day free trial.
+**Note**: While the course uses the old Community Edition, you should download the Unified product.
 
 Install, open, and use the default settings.
 
@@ -100,20 +101,28 @@ Otherwise, you can use the installer from https://www.spyder-ide.org/ on Mac or 
 
 1. Run it. It should run successfully with no errors.
 
-See Lesson 1.2 for instructions on how to run files in the different code editors.
+See Lesson 1.2 for instructions on how to run files in PyCharm and IDLE. 
+In VS Code and Spyder, press the green Run arrow.
 
 If you are having errors running the file,
 follow [these steps](docs/PYTHON-IDE.md) to configure your code editor with the
-correct version of Python.
+correct version of Python (3.6 or higher).
 
 ## Troubleshooting
 
-### I downloaded PyCharm Professional and it's saying I'm on a 30-day trial
+### I downloaded PyCharm, now it's saying I'm on a trial
 
-Go back to https://www.jetbrains.com/pycharm/download/ and scroll down until
-you see the Community Edition, which is always free.
+That is fine. You can use PyCharm with Pro features enabled or with only free features.
+
+Note that your interface might look different than in the video,
+which was recorded with an old Community Edition of PyCharm.
 
 ### I'm still having trouble setting everything up
 
 Email me at **arianne.dee.studios** at gmail.com with any relevant 
 error messages and screenshots.
+
+### There's an error in the video or the code
+
+Email me at **arianne.dee.studios** at gmail.com,
+or submit an [issue](https://github.com/ariannedee/intro-to-python-2ed/issues/new) in this GitHub repository.
