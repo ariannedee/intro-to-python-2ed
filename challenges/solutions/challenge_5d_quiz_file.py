@@ -18,7 +18,7 @@ while True:
         break
     print(f"{num_left} left")
 
-    guess = input(f"Enter a {category} (q to quit): ")
+    guess = input(f"{category} (q to quit): ")
     if guess.lower() == 'q':
         missed = ', '.join(answers)
         print('You missed: ' + missed)
