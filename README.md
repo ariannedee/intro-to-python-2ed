@@ -1,6 +1,8 @@
 # Introduction to Python 2nd Edition
 This is the code for **Introduction to Python 2nd Edition** by Arianne Dee
 
+Feel free to provide issues, questions, or suggestions through the repository's [issues](https://github.com/ariannedee/intro-to-python-2ed/issues) tracker.
+
 To get started with this course, please follow these instructions:
 1. [Download the code](#1-download-the-course-files)
 2. [Install Python](#2-install-python3)
