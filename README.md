@@ -1,5 +1,5 @@
 # Introduction to Python 2nd Edition
-This is the code for **Introduction to Python 2nd Edition** by Arianne Dee
+This is the code for **Introduction to Python 2nd Edition** by Arianne Dee on [O'Reilly](https://learning.oreilly.com/course/introduction-to-python/9780135390016/).
 
 Feel free to provide issues, questions, or suggestions through the repository's [issues](https://github.com/ariannedee/intro-to-python-2ed/issues) tracker.
 
