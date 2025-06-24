@@ -3,6 +3,7 @@
 
 # IDE settings
 .idea
+.vscode
 
 # Virtual environments
 venv*/
